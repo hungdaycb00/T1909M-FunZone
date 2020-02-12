@@ -1,0 +1,174 @@
+
+/* Show and envent */
+#content .slideshow-container  h3
+{
+ font-size: 25px;
+ line-height: 50px;
+ text-shadow: none;
+ color: #6c6c6c;
+}
+.event  h4
+{
+    display:block;
+    font-size: 21px;
+    margin: 0 0 0.5em 0;
+    color:  #6c6c6c;
+    font-family: "Muli",sans-serif;
+    letter-spacing: 0.3px;
+    line-height: 80px;
+    text-shadow: none;
+}
+.option{
+width: 1000px;
+
+
+}
+.from{
+  width: 235px;
+  height: 40px;
+  border: 1px solid #dadada;
+  background-color: #fff;
+  float: left;
+  margin-right: 20px;
+}
+.to{
+  width: 235px;
+  height: 40px;
+  border: 1px solid #dadada;
+  background-color: #fff;
+  float: left;
+  margin-right: 20px;
+}
+.category
+{
+  float: left;
+  width: 235px;
+  height: 40px;
+  border: 1px solid #dadada;
+  background-color: #fff;
+  margin-right: 20px;
+
+}
+.Price_Tickets{
+  float: left;
+  width: 235px;
+  height: 40px;
+  border: 1px solid #dadada;
+  background-color: #fff;
+}
+.lable_from
+{
+  line-height: 40px;
+  padding-left: 10px;
+  margin-right:  10px;
+
+}
+.from img {
+height: 20px;
+
+margin-left: 146px;
+position: absolute;
+margin-top: 8px;
+
+}
+.to img {
+  height: 20px;
+margin-left: 165px;
+position: absolute;
+margin-top: 8px;
+
+}
+.category img{
+height:35px;
+margin-left: 115px;
+padding-bottom: 6px;
+  }
+.Price_Tickets img {
+  height: 20px;
+margin-left: 65px;
+position: absolute;
+margin-top: 10px;
+
+}
+ hr{
+  width: 1000px;
+  margin-bottom: 20px;
+  margin-left: 0;
+
+}
+ .boder2{
+  width: 1000px;
+  padding-left: 0px;
+  margin-top: 80px;
+
+
+}
+label
+{
+  font-size: 13px;
+      font-family: "Muli",sans-serif;
+}
+.inputfromto{
+  border: none;
+  margin-top:8px;
+  position:absolute;
+  margin-left: 19px;
+
+}
+
+#edit-event-category
+{
+  display: none;
+}
+.category select{
+  	position:absolute;
+    border: none;
+    margin-top: 11px;
+    box-sizing: border-box;
+    width:10px;
+    padding-left: 18px;
+    margin-left: 142px;
+}
+.Price_Tickets select{
+  position: absolute;
+  border: none;
+  margin-top: 11px;
+  box-sizing: border-box;
+  width:10px;
+  padding-left: 18px;
+  margin-left: 95px;
+}
+.event p{
+  font-family: "Muli",sans-serif;
+  color:#6c6c6c;
+}
+/*phân trang*/
+.center {
+  text-align: center;
+  clear: both;
+
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #323432;
+  margin: 0 4px;
+  background-color: #8db3bf;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color:#2e5ef7;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #06e4ff;}
+/**/

@@ -1,0 +1,43 @@
+.experience{
+
+  margin: auto;
+  width: 1000px;
+  height: 700px;
+  clear: both;
+
+}
+.pic-exp1{
+position: relative;
+  width: 1000px;
+  float: left;
+  height: 400px;
+  font-size: 23px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.pic-exp{
+position: relative;
+  width: 333px;
+  height: 300px;
+  float: left;
+  font-size: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.pic-exp1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.pic-exp img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.pic-exp span, .pic-exp1 span{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  font-style: oblique;
+}

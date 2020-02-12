@@ -1,0 +1,190 @@
+
+body{
+    margin: 10px auto 0 auto;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+#main{
+  margin: auto;
+  font-size: 16px;
+}
+header{
+  width: 1000px;
+    margin: auto;
+}
+  #top{
+    margin-top: 5px;
+    height: 30px;
+  }
+  #time{
+    float: left;
+    font-style: italic;
+  }
+  .login{
+  float: right;
+height: inherit;
+color: #248fed;
+text-decoration: none;
+font-size: 13px;
+  }
+
+  .search{
+    height: inherit;
+    float: right;
+    margin-left: 10px;
+  }
+  ._search{
+    height: 25px;
+    border-radius: 10px;
+    background-color: #faf7eb;
+  }
+  #logo{
+    height: 100px;
+    text-align: center;
+  }
+  .logo{
+    height: 100px;
+}
+  #bar{
+    width: inherit;
+    height:40px;
+    margin: 20px auto 20px auto;
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+#bar li:hover{
+  text-decoration: underline;
+}
+  ul{
+    line-height: 40px;
+    display: inline;
+    list-style-type: none;
+    }
+
+  li{
+    float: left;
+    padding-right: 40px;
+    cursor: pointer;
+  }
+  li.home{
+    margin-left: 10px;
+  }
+  li a{
+      text-decoration: none;
+      color: #14130e;
+  }
+
+  #content{
+    width: inherit;
+  }
+
+.event{
+  width: 1000px;
+  height: 500px;
+  clear: both;
+  margin: auto;
+}
+
+.entry {
+  width: 310px;
+  height: 200px;
+  float: left;
+  margin: 10px;
+}
+.entry:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+figure {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #e7e3d8;
+  margin: 0px;
+  text-align: left;
+
+}
+figure img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+
+}
+.entry_link{
+position: absolute;
+width: inherit;
+height: 70px;
+margin-top: 130px;
+padding-left: 5px;
+color: #fff;
+background-color:rgba(55,86,119,0.5);
+}
+.entry_link span{
+  font-size: 10px;
+  color: rgba(255, 255, 255,0.7);
+}
+
+  footer{
+    margin: 50px auto 0px auto;
+    width: 1200px;
+    height: 240px;
+    clear:both;
+    background-color: #2e3330;
+      color: white;
+  }
+  #maps{
+    position: relative;
+    float: left;
+    width: 500px;
+  }
+  .staticmaps{
+    position: absolute;
+    width: 400px;
+    height: 240px;
+
+  }
+  .buttonmaps{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    margin: 180px 0px 0px 250px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    text-decoration: underline;
+  }
+.buttonmaps:hover{
+  cursor: pointer;
+}
+.iconmaps{
+  width: 15px;
+  position: absolute;
+  margin: 185px 0px 0px 360px;
+}
+  #contact{
+    text-align: center;
+    width: 400px;
+    margin-left: 470px;
+    float: left;
+  }
+  .contact{
+    width: 50px;
+    margin: 5px;
+  }
+
+  #hotline{
+    width: 300px;
+    float: right;
+    text-align: center;
+  }
+#copyright{
+margin: auto;
+  width: inherit;
+  text-align: center;
+  clear: both;
+  color: white;
+  background-color: #2E3330;
+}
