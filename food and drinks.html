@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fun Zone</title>
+  <link rel="stylesheet" href="css/Show and Event.css">
+  <link rel="stylesheet" href="css/SliderShow.css">
+  <link rel="stylesheet" href="css/dropdown.css">
+<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+  <div id="main">
+  <header>
+    <div id="top">
+      <div id="time"></div>
+      <div class="search">
+        <input type="search" class="_search" name="" value="" size="20" maxlength="200" placeholder="  Search...">
+      </div>
+      <div class="login"><a href="#" class="login">Sign In or Create Account</a></div></div>
+    <div id="logo">
+      <a href=""><img src="images/icon/logo.png" alt="" class="logo"></a>
+    </div>
+    <div id="bar">
+      <ul class="links">
+        <li class="home"><a href="">Home</a></li>
+        <div class="dropdown">
+          <li class="show">Events and Show
+          <div class="dropdown-content">
+            <a href="#">Only for Visitors</a>
+            <a href="#">Public Offers</a>
+            <a href="#">All Show & Events</a>
+          </div>
+        </li>
+        </div>
+        <div class="dropdown">
+          <li class="food">Foods & Drinks
+          <div class="dropdown-content">
+            <a href="#">Parks Restaurent & Cafés</a>
+            <a href="#">Hotels Restaurent & Bars</a>
+          </div>
+        </li>
+        </div>
+        <div class="dropdown">
+          <li class="place">Accomondation
+          <div class="dropdown-content">
+            <a href="#">All Hotels, Camps & Prices</a>
+            <a href="#">Info & Sevice</a>
+            <a href="#">All Offers</a>
+          </div>
+        </li>
+        </div>
+        <div class="dropdown">
+          <li class="ticket">Tickets & Info
+          <div class="dropdown-content">
+            <a href="#">Tickets & Prices</a>
+            <a href="#">special Offers</a>
+            <a href="#">Information</a>
+          </div>
+        </li>
+        </div>
+      </ul>
+    </div>
+  </header>
+  <div id="left"></div>
+  <div id="content">
+
+    <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="images/food/anh1.jpg" class="slicepic">
+      <div class="text">
+        <h2>Scandinavian cuisine for the whole family</h2>
+        <p>The new restaurant Bubba Svens at the hotel ‘Krønasår’</p>
+        <p class="button"><a href="">Discover Now</a></p>
+    </div>
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="images/food/anh2.jpg" class="slicepic">
+      <div class="text">
+        <h2>Feast like the Knights of the round table</h2>
+        <p>Castillo</p>
+        <p class="button"><a href="">Discover Now</a></p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="images/food/anh3.jpg" class="slicepic">
+      <div class="text">
+        <h2>Badish-Alsatian cuisines in medieval ambience</h2>
+        <p>Balthasar Castle Restaurant</p>
+        <p class="button"><a href="">Discover Now</a></p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="images/food/anh4.jpg" class="slicepic">
+      <div class="text">
+        <h2>Spanish-iberian specialities</h2>
+        <p>Bodega original tapas bar</p>
+        <p class="button"><a href="">Discover Now</a></p>
+      </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div class="event">
+
+         <h4>What would you like to eat or drink?</h4>
+         <hr/ class="boder1">
+         <div class="option">
+
+             <div class="from">
+               <label for="from" class="lable_from">From    </label>
+               <input  class="inputfromto" type="date"  name="from"  value="2020-01-01" size="" min="2020-01-01" max="2020-12-31" />
+               <img src="images/icon/calendar.png" alt="" >
+             </div>
+             <div class="to">
+               <label for="to" class="lable_from">To     </label>
+               <input  class="inputfromto" type="date"  name="to" value="2020-01-01" size=""  min="2020-01-01" max="2020-12-31" />
+               <img src="images/icon/calendar.png" alt="" >
+             </div>
+
+            <div class="category">
+      <label class="lable_from" for="category">What</label>
+
+        <select  name="">
+          <option value="">- Any -</option>
+          <option value="">Evening Cinema</option>
+          <option value="">Charity Events</option>
+          <option value="">Senior visitors (aged 60+)</option>
+          <option value="">Groups</option>
+          <option value="">For Kids</option>
+          <option value="">Culinary Highlights</option>
+          <option value="">Parc Shows &amp; 4D Cinema</option>
+          <option value="">For Pupils</option>
+          <option value="">Shows, Concerts &amp; Events</option>
+          <option value="">Other</option>
+          <option value="">Sport Events</option>
+          <option value="">Theme Parties</option>
+
+        </select>
+            <img src="images/icon/hat-and-magic-wand.png" alt="">
+        </div>
+              </div>
+             <div class="Price_Tickets">
+               <label for="Price_Tickets" class="lable_from" >Price & Tickets</label>
+    <select name="">
+      <option value="">Separate ticket required.</option>
+      <option value="">Tickets included in park entry fee.</option>
+      <option value="">Event is free of charge.</option>
+    </select>
+    <img src="images/icon/voucher.png" alt="">
+             </div>
+
+
+         <hr/ class="boder2">
+      <p class="title1">Current shows & events</p>
+      <div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh1.jpg" alt="">
+            <div class=entry_link>
+              <h5>Valentine's Day
+              <br>
+              <span>18.02.20 Saturday 17:00 pm</span></h5>
+            </div></figure></a>
+        </div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh2.jpg" alt="">
+            <div class=entry_link>
+              <h5>Gin Tonic & Burger
+              <br>
+              <span>14.02.20 Friday 19:00 pm & more dates</span></h5>
+            </div>
+          </figure></a>
+        </div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh3.jpg" alt="">
+            <div class=entry_link>
+              <h5>Viva la Mamma - Serata Italiana al Colosseo<br>
+              <span>24.07.20 Friday 19:30 pm</span></h5>
+            </div>
+            </figure></a>
+        </div>
+        <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh4.jpg" alt="">
+          <div class=entry_link>
+            <h5>Fondue Evening
+              <br>
+            <span>  15.02.20 Saturday 18:30 pm & more dates</span></h5>
+          </div>
+          </figure></a>
+        </div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh5.jpg" alt="">
+            <div class=entry_link>
+              <h5>Erdinger Foodpairing<br>
+              <span>15.02.20 Saturday 19:00 pm</span></h5>
+            </div>
+            </figure></a>
+        </div>
+
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh6.jpg" alt="">
+            <div class=entry_link>
+              <h5>Miss Germany Competition 2020<br>
+              <span>  15.02.20 Saturday 19:15 pm</span></h5>
+            </div>
+        </figure></a>
+        </div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh7.jpg" alt="">
+            <div class=entry_link>
+              <h5>Cocktail Course (aged 18+)
+              <br>
+              <span>  16.02.20 Sunday 15:30 pm & more dates</span></h5>
+            </div></figure></a>
+        </div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh8.jpg" alt="">
+            <div class=entry_link>
+              <h5>Hygge I Midsommar I Celebrate<br>
+              <span>20.06.20 Saturday 18:00 pm</span></h5>
+            </div>
+          </figure></a>
+        </div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh9.jpg" alt="">
+            <div class=entry_link>
+              <h5>Sascha Grammel - Fast fertig! <br>
+              <span>24.11.20 Tuesday 20:00 pm</span></h5>
+            </div>
+            </figure></a>
+        </div>
+        <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh10.jpg" alt="">
+          <div class=entry_link>
+            <h5>Euro Dance Festival 2020
+            <br>
+            <span>25.02.20 Tuesday 09:00 am & more dates</span></h5>
+          </div>
+          </figure></a>
+        </div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh11.jpg" alt="">
+            <div class=entry_link>
+              <h5>New York Sunday Brunch
+              <br>
+              <span>01.03.20 Sunday 11:30 am & more dates</span></h5>
+            </div>
+            </figure></a>
+        </div>
+
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh12.jpg" alt="">
+            <div class=entry_link>
+              <h5>Kitchen Party at Hotel 'El Andaluz'
+              <br>
+              <span>06.03.20 Friday 19:00 pm & more dates</span></h5>
+            </div>
+        </figure></a>
+
+        </div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh13.jpg" alt="">
+            <div class=entry_link>
+              <h5>Wine Journey (aged 18+)
+              <br>
+              <span>07.03.20 Saturday 19:00 pm & more dates</span></h5>
+            </div></figure></a>
+        </div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh14.jpg" alt="">
+            <div class=entry_link>
+              <h5>In Nome del Barolo
+               <br>
+              <span>13.03.20 Friday 19:00 pm</span></h5>
+            </div>
+          </figure></a>
+        </div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh15.jpg" alt="">
+            <div class=entry_link>
+              <h5>Baden Medieval Banquet
+                <br>
+              <span>14.03.20 Saturday 19:00 pm & more dates</span></h5>
+            </div>
+            </figure></a>
+        </div>
+        <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh16.jpg" alt="">
+          <div class=entry_link>
+            <h5>Night.Beat.Angels
+
+            <span>14.03.20 Saturday 22:00 pm & more datesbr></span></h5>
+          </div>
+          </figure></a>
+        </div>
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh17.jpg" alt="">
+            <div class=entry_link>
+              <h5>PATRICK’S DAY– Bar Spirit of St. Louis“
+            <br>
+              <span>  17.03.20 Tuesday 20:00 p</span></h5>
+            </div>
+            </figure></a>
+        </div>
+
+        <div class="entry">
+          <a href=""><figure><img src="images/eventandshow/anh18.jpg" alt="">
+            <div class=entry_link>
+              <h5>Social Etiquette Training Evening
+              <br>
+              <span>27.03.20 Friday 18:30 pm</span></h5>
+            </div>
+        </figure></a>
+
+      </div>
+      <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh19.jpg" alt="">
+          <div class=entry_link>
+            <h5>Tapas Evening
+            <br>
+            <span>27.03.20 Friday 19:00 pm & more dates</span></h5>
+          </div></figure></a>
+      </div>
+      <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh20.jpg" alt="">
+          <div class=entry_link>
+            <h5>Brazilian Evening
+            <br>
+            <span>02.04.20 Thursday 19:30 pm & more dates</span></h5>
+          </div>
+        </figure></a>
+      </div>
+      <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh21.jpg" alt="">
+          <div class=entry_link>
+            <h5>Radio Regenbogen Award
+            <br>
+            <span>03.04.20 Friday 19:00 pm</span></h5>
+          </div>
+          </figure></a>
+      </div>
+      <div class="entry">
+      <a href=""><figure><img src="images/eventandshow/anh22.jpg" alt="">
+        <div class=entry_link>
+          <h5>Nickelodeon Kids‘ Choice Awards
+        <br>
+          <span>  09.04.20 Thursday 18:30 pm</span></h5>
+        </div>
+        </figure></a>
+      </div>
+      <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh23.jpg" alt="">
+          <div class=entry_link>
+            <h5>Easter at Europa-Park
+            <br>
+            <span>10.04.20 Friday 09:00 am & more dates</span></h5>
+          </div>
+          </figure></a>
+      </div>
+
+      <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh24.jpg" alt="">
+          <div class=entry_link>
+            <h5>Chefs Table - Tre Krønen
+            <br>
+            <span>10.04.20 Friday 19:00 pm & more dates</span></h5>
+          </div>
+      </figure></a>
+      </div>
+      <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh25.jpg" alt="">
+          <div class=entry_link>
+            <h5>Spanish Moors Night
+            <br>
+            <span>24.04.20 Friday 19:00 pm & more dates</span></h5>
+          </div></figure></a>
+      </div>
+      <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh26.jpg" alt="">
+          <div class=entry_link>
+            <h5>Europe is dancing
+            <br>
+            <span>25.04.20 Saturday 16:30 pm</span></h5>
+          </div>
+        </figure></a>
+      </div>
+      <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh27.jpg" alt="">
+          <div class=entry_link>
+            <h5>Western Night
+<br>
+            <span>  25.04.20 Saturday 19:00 pm & more dates</span></h5>
+          </div>
+          </figure></a>
+      </div>
+      <div class="entry">
+      <a href=""><figure><img src="images/eventandshow/anh28.jpg" alt="">
+        <div class=entry_link>
+          <h5>TV Show 'Immer Wieder Sonntags'
+          <br>
+          <span>03.05.20 Sunday 10:00 am & more dates</span></h5>
+        </div>
+        </figure></a>
+      </div>
+      <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh29.jpg" alt="">
+          <div class=entry_link>
+            <h5>Street Food Festival
+<br>
+            <span>22.05.20 Friday 12:00 pm & more dates</span></h5>
+          </div>
+          </figure></a>
+      </div>
+
+      <div class="entry">
+        <a href=""><figure><img src="images/eventandshow/anh30.jpg" alt="">
+          <div class=entry_link>
+            <h5>Spanish Sundowner
+            <br>
+            <span>25.05.20 Monday 18:00 pm & more dates)</span></h5>
+          </div>
+      </figure></a>
+      </div>
+        </div>
+
+      </div>
+    <div class="experience"></div>
+    <div class="gallery"></div>
+  </div>
+  <div id="right"></div>
+</div>
+<div class="center">
+  <div class="pagination" >
+
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">></a>
+
+  </div>
+</div>
+<footer>
+
+  <div id="maps">
+    <img src="images/staticmap.png" alt="" class="staticmaps">
+    <a href="https://www.google.com/maps/search/?api=1&query=20.9553865,107.04951759999994" target="_blank">
+      <button type="button" name="button" class="buttonmaps">Location info</button>
+      <span><img src="images/icon/map.png" alt="" class="iconmaps"></span>
+    </a>
+  </div>
+  <div id="contact">
+    <h2>Social Media</h2>
+    <a href=""><img src="images/icon/fb.svg" alt="" class="contact"></a>
+    <a href=""><img src="images/icon/youtube.png" alt="" class="contact"></a>
+    <a href=""><img src="images/icon/twitter.png" alt="" class="contact"></a>
+    <a href=""><img src="images/icon/insta.png" alt="" class="contact"></a>
+  </div>
+  <div id="hotline">
+    <h2>Contact</h2>
+    <h3>Sun World Halong Complex</h3>
+    <p>Address: Số 9 đường Hạ Long, phường Bãi Cháy, thành phố Hạ Long, tỉnh Quảng Ninh</p>
+    <p>Hotline: 0203 3616 838 | 0888 855 621<br>Email: halongcomplex@sunworld.vn </p>
+  </div>
+
+</footer>
+<div id="copyright">
+  <p><hr>&copy; Copyright by SunGroup</p>
+</div>
+<script type="text/javascript" src="time.js"></script>
+<script type="text/javascript" src="js/SliderShow.js"></script>
+<script type="text/javascript" src="js/SliderShow1.js"></script>
+</body>
+</html>
