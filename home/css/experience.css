@@ -1,5 +1,4 @@
 .experience{
-
   margin: auto;
   width: 1000px;
   height: 700px;
@@ -40,4 +39,7 @@ position: relative;
   margin-left: 10px;
   color: white;
   font-style: oblique;
+}
+.experience h2{
+  color: #6c6c6c;
 }

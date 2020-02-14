@@ -1,0 +1,15 @@
+.gallery{
+  width: 1000px;
+  height: 590px;
+  clear: both;
+  margin: auto;
+  padding-top: 12px;
+
+}
+.gallery .picview{
+  width: 230px;
+  height: 200px;
+  float: left;
+  margin: 10px;
+
+}
