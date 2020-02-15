@@ -10,20 +10,22 @@
 <body>
   <div id="main">
   <header>
-    <div id="top">
+    <div id="header">
+      <div id="top">
       <div id="time"></div>
       <div class="search">
         <input type="search" class="_search" name="" value="" size="20" maxlength="200" placeholder="  Search...">
       </div>
-      <div class="login"><a href="#" class="login">Sign In or Create Account</a></div></div>
+      <div class="login"><a href="#" class="login">Sign In or Create Account</a></div>
+    </div>
     <div id="logo">
       <a href=""><img src="images/icon/logo.png" alt="" class="logo"></a>
     </div>
     <div id="bar">
       <ul class="links">
-        <li class="home"><a href="">Home</a></li>
+        
         <div class="dropdown">
-          <li class="show">Events and Show
+          <li class="show"><a href="Show and Event.html" target="_blank">Shows & Events</a>
           <div class="dropdown-content">
             <a href="#">Only for Visitors</a>
             <a href="#">Public Offers</a>
@@ -32,7 +34,7 @@
         </li>
         </div>
         <div class="dropdown">
-          <li class="food">Foods & Drinks
+          <li class="food"><a href="food and drinks.html"></a>Foods & Drinks
           <div class="dropdown-content">
             <a href="#">Parks Restaurent & Cafés</a>
             <a href="#">Hotels Restaurent & Bars</a>
@@ -40,7 +42,7 @@
         </li>
         </div>
         <div class="dropdown">
-          <li class="place">Accomondation
+          <li class="place"><a href="">Accomondation</a>
           <div class="dropdown-content">
             <a href="#">All Hotels, Camps & Prices</a>
             <a href="#">Info & Sevice</a>
@@ -49,7 +51,7 @@
         </li>
         </div>
         <div class="dropdown">
-          <li class="ticket">Tickets & Info
+          <li class="ticket"><a href="">Tickets & Info</a>
           <div class="dropdown-content">
             <a href="#">Tickets & Prices</a>
             <a href="#">special Offers</a>
@@ -59,6 +61,7 @@
         </div>
       </ul>
     </div>
+  </div>
   </header>
   <div id="left"></div>
   <div id="content">
@@ -69,7 +72,7 @@
       <div class="text">
         <h2>Scandinavian cuisine for the whole family</h2>
         <p>The new restaurant Bubba Svens at the hotel ‘Krønasår’</p>
-        <p class="button"><a href="">Discover Now</a></p>
+        <button>Discover Now</button>
     </div>
     </div>
 
@@ -79,7 +82,7 @@
       <div class="text">
         <h2>Feast like the Knights of the round table</h2>
         <p>Castillo</p>
-        <p class="button"><a href="">Discover Now</a></p>
+        <button>Discover Now</button>
       </div>
     </div>
 
@@ -89,7 +92,7 @@
       <div class="text">
         <h2>Badish-Alsatian cuisines in medieval ambience</h2>
         <p>Balthasar Castle Restaurant</p>
-        <p class="button"><a href="">Discover Now</a></p>
+        <button>Discover Now</button>
       </div>
     </div>
 
@@ -99,7 +102,7 @@
       <div class="text">
         <h2>Spanish-iberian specialities</h2>
         <p>Bodega original tapas bar</p>
-        <p class="button"><a href="">Discover Now</a></p>
+        <button>Discover Now</button>
       </div>
     </div>
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -474,11 +477,11 @@
     <p>Address: Số 9 đường Hạ Long, phường Bãi Cháy, thành phố Hạ Long, tỉnh Quảng Ninh</p>
     <p>Hotline: 0203 3616 838 | 0888 855 621<br>Email: halongcomplex@sunworld.vn </p>
   </div>
-
+  <div id="copyright">
+    <p>&copy; Copyright by Disney</p>
+  </div>
 </footer>
-<div id="copyright">
-  <p><hr>&copy; Copyright by SunGroup</p>
-</div>
+
 <script type="text/javascript" src="time.js"></script>
 <script type="text/javascript" src="js/SliderShow.js"></script>
 <script type="text/javascript" src="js/SliderShow1.js"></script>

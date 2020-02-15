@@ -1,0 +1,70 @@
+.background{
+  width: auto;
+  height: 800px;
+  clear: both;
+  text-align: center;
+
+}
+.background-text{
+  width: 1200px;
+  height: 50px;
+  position: absolute;
+  color: #fff;
+  top: 500px;
+  font-size: 44px;
+  text-align: center;
+  margin-left: 18%;
+}
+.bg-learn{
+  font-size: 22px;
+}
+.background-text a{
+  font-weight: 600;
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+.bg-next{
+  position: absolute;
+  font-size: 40px;
+  left: 56%;
+  bottom: -155px;
+}
+}
+.background-text a:hover{
+  color: gray;
+}
+#video_background {
+  position: absolute;
+top: 70px;
+  bottom: 0px;
+
+  right: 0px;
+
+  min-width: 100%;
+
+  min-height: 100%;
+
+  width: auto;
+
+  height: auto;
+
+  z-index: -1000;
+
+
+}
+.countdown {
+    border-collapse: separate;
+    border-spacing: 5px;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+.countdown a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+.countdown a:hover{
+  text-decoration: underline;
+}

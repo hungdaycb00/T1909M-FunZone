@@ -2,14 +2,22 @@
 body{
   margin: 10px auto 0 auto;
   font-family: Comic Sans MS, Comic Sans, cursive;
+  background-color: white;
 }
 #main{
   margin: auto;
   font-size: 16px;
 }
 header{
+  width: auto;
+  height: 200px;
+  background-color: white;
+}
+#header{
   width: 1000px;
     margin: auto;
+    background-color: white;
+
 }
   #top{
     margin-top: 5px;
@@ -45,11 +53,14 @@ font-size: 13px;
     height: 100px;
 }
   #bar{
-    width: inherit;
+    min-width: 100%;
+    width: auto;
     height:40px;
     margin: 20px auto 20px auto;
     font-size: 18px;
     font-weight: bold;
+    background-color: white;
+    text-align: center;
   }
 #bar li:hover{
   text-decoration: underline;
@@ -62,12 +73,10 @@ font-size: 13px;
 
   li{
     float: left;
-    padding-right: 40px;
+    padding-right: 50px;
     cursor: pointer;
   }
-  li.home{
-    margin-left: 10px;
-  }
+
   li a{
       text-decoration: none;
       color: #14130e;
@@ -76,12 +85,18 @@ font-size: 13px;
   #content{
     width: inherit;
   }
-
+#event{
+  width: auto;
+  background-color: white;
+  padding-top: 10px;
+}
 .event{
   width: 1000px;
   height: 500px;
   clear: both;
   margin: auto;
+
+
 }
 .scale img:hover{
   transform: scale(1.1);
@@ -132,7 +147,6 @@ background-color:rgba(55,86,119,0.5);
     padding: 10px;
     display: block;
     clear: both;
-
 }
 .load-more a{
   text-decoration: none;
@@ -146,8 +160,8 @@ font-size: 25px;
 text-transform: uppercase;
 }
   footer{
-    margin-top: 10px;
-    height: 240px;
+    margin-top: 20px;
+    height:250px;
     clear:both;
     background-color: #2e3330;
       color: white;
@@ -187,7 +201,7 @@ text-transform: uppercase;
   #contact{
     text-align: center;
     width: 400px;
-    margin-left: 700px;
+    margin-left: 750px;
     float: left;
   }
   .contact{
@@ -199,7 +213,7 @@ text-transform: uppercase;
     width: 320px;
     float: right;
     text-align: center;
-    margin-right: 450px;
+    margin-right: 400px;
   }
 #copyright{
 margin: auto;
