@@ -12,17 +12,10 @@
 </head>
 <body>
   <div id="main">
-    <div class="background">
-      <video id="video_background" preload="auto" autoplay="true" loop="loop" muted volume="0">
 
-    <source src="videos/video.webm" type="video/webm"/>
-
-    <source src="videos/video.ogv" type="video/ogg ogv"; codecs="theora, vorbis"/>
-
-    <source src="videos/video.mp4" type="video/mp4"/>
-    </div>
   <header>
-    <div id="top">
+    <div id="header">
+      <div id="top">
       <div id="time"></div>
       <div class="search">
         <input type="search" class="_search" name="" value="" size="20" maxlength="200" placeholder="  Search...">
@@ -33,7 +26,7 @@
     </div>
     <div id="bar">
       <ul class="links">
-        <li class="home"><a href="">Home</a></li>
+        
         <div class="dropdown">
           <li class="show"><a href="Show and Event.html" target="_blank">Shows & Events</a>
           <div class="dropdown-content">
@@ -71,118 +64,86 @@
         </div>
       </ul>
     </div>
+  </div>
+
   </header>
-  <div id="left"></div>
+
   <div id="content">
-    <div class="slideshow-container">
-    <div class="mySlides fade">
-      <img src="images/anh1.jpg" class="slicepic">
-      <div class="text">
-        <h2>Star Wars: Rise of the Resistance</h2>
-        <p>Join the Resistance in an epic battle against the First Order on this exciting new ride—now open!</p>
-        <button>Discover Now</button>
-    </div>
-    </div>
+    <div class="background">
+      <video id="video_background" preload="auto" autoplay="true" loop="loop" muted volume="0">
 
-    <div class="mySlides fade">
+    <source src="videos/video.webm" type="video/webm"/>
 
-      <img src="images/anh2.jpg" class="slicepic">
-      <div class="text">
-        <h2>Epcot Forever</h2>
-        <p>Celebrate the past, present and future of Epcot through this dazzling fireworks and special-effects spectacular.</p>
-        <button>
-        Discover Now
-      </button>
-      </div>
+    <source src="videos/video.ogv" type="video/ogg ogv"; codecs="theora, vorbis"/>
+
+    <source src="videos/video.mp4" type="video/mp4"/>
+
+    </div>
+    <div class="background-text">
+      <strong><em>Star Wars</em>: Galaxy's Edge Is Now Open at Disney's Hollywood Studios</strong><br>
+      <p><a href="#" ><div class="bg-learn">Learn More</div></a></p>
+<a href="#" class="bg-next">&#10095;</a>
+
     </div>
 
-    <div class="mySlides fade">
-
-      <img src="images/anh3.jpg" class="slicepic">
-      <div class="text">
-        <h2>Avatar Flight of Passage</h2>
-        <p>Climb atop a winged mountain banshee for a breathtaking 3D flight over Pandora’s otherworldly landscape.</p>
-        <button>
-        Discover Now
-      </button>
-      </div>
+    <div class="countdown" role="region" style="color: rgb(255, 255, 255);">
+      <h3 class="countdown"><a href=""><em>Star Wars</em>: Rise of the Resistance attraction is Now Open!</a></h3>
     </div>
-
-    <div class="mySlides fade">
-
-      <img src="images/anh4.jpg" class="slicepic">
-      <div class="text">
-        <h2>Disney's Riviera Resort</h2>
-        <p>Enchantment awaits you at a Resort hotel that’s inspired by Europe and imagined by Disney.</p>
-        <button>
-        Discover Now
-      </button>
-      </div>
-    </div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-
-    <div class="event ">
-      <p class="title">Events & Shows</p>
-      <div>
-          <div class="entry ">
-            <a href=""><figure><img src="images/events/1.jpg" alt="">
-              <div class=entry_link>
-                <h5>Over 30 party at Rulantica <br>
-                <span>18.02.20 Saturday 17:00 pm</span></h5>
-              </div></figure></a>
-          </div>
-          <div class="entry ">
-            <a href=""><figure><img src="images/events/6.jpg" alt="">
-              <div class=entry_link>
-                <h5>Gin Tonic & Burger <br>
-                <span>18.01.20 Saturday 18:30 pm</span></h5>
-              </div>
-            </figure></a>
-          </div>
-          <div class="entry ">
-            <a href=""><figure><img src="images/events/2.jpg" alt="">
-              <div class=entry_link>
-                <h5>Fondue Evening <br>
-                <span>18.01.20 Saturday 18:30 pm</span></h5>
-              </div>
-              </figure></a>
-          </div>
-          <div class="entry ">
-          <a href=""><figure><img src="images/events/3.jpg" alt="">
-            <div class=entry_link>
-              <h5>Tapas Evening<br>
-              <span>18.01.20 Saturday 19:00 pm</span></h5>
+    <div id="event">
+      <div class="event ">
+        <p class="title">Events & Shows</p>
+        <div>
+            <div class="entry ">
+              <a href=""><figure><img src="images/events/1.jpg" alt="">
+                <div class=entry_link>
+                  <h5>Over 30 party at Rulantica <br>
+                  <span>18.02.20 Saturday 17:00 pm</span></h5>
+                </div></figure></a>
             </div>
-            </figure></a>
-          </div>
-          <div class="entry ">
-            <a href=""><figure><img src="images/events/4.jpg" alt="">
+            <div class="entry ">
+              <a href=""><figure><img src="images/events/6.jpg" alt="">
+                <div class=entry_link>
+                  <h5>Gin Tonic & Burger <br>
+                  <span>18.01.20 Saturday 18:30 pm</span></h5>
+                </div>
+              </figure></a>
+            </div>
+            <div class="entry ">
+              <a href=""><figure><img src="images/events/2.jpg" alt="">
+                <div class=entry_link>
+                  <h5>Fondue Evening <br>
+                  <span>18.01.20 Saturday 18:30 pm</span></h5>
+                </div>
+                </figure></a>
+            </div>
+            <div class="entry ">
+            <a href=""><figure><img src="images/events/3.jpg" alt="">
               <div class=entry_link>
-                <h5>Europa-Park Dinner-Show<br>
-                <span>18.01.20 Saturday 17:00 pm</span></h5>
+                <h5>Tapas Evening<br>
+                <span>18.01.20 Saturday 19:00 pm</span></h5>
               </div>
               </figure></a>
-          </div>
-          <div class="entry ">
-            <a href=""><figure><img src="images/events/5.jpg" alt="">
-              <div class=entry_link>
-                <h5>Cocktail Course (aged 18+)<br>
-                <span>19.01.20 Sunday 15:30 pm</span></h5>
-              </div>
-          </figure></a>
+            </div>
+            <div class="entry ">
+              <a href=""><figure><img src="images/events/4.jpg" alt="">
+                <div class=entry_link>
+                  <h5>Europa-Park Dinner-Show<br>
+                  <span>18.01.20 Saturday 17:00 pm</span></h5>
+                </div>
+                </figure></a>
+            </div>
+            <div class="entry ">
+              <a href=""><figure><img src="images/events/5.jpg" alt="">
+                <div class=entry_link>
+                  <h5>Cocktail Course (aged 18+)<br>
+                  <span>19.01.20 Sunday 15:30 pm</span></h5>
+                </div>
+            </figure></a>
+            </div>
           </div>
         </div>
-      </div>
+    </div>
+
     <div class="experience">
       <p class="title">Can't Miss Experience</p>
       <div class="pic-exp1 scale"><a href=""><img src="images/experiences/5.webp" alt=""><span>Star Wars: Rise of the Resistance - Now Open!</span></img></a></div>
@@ -204,7 +165,6 @@
       <hr></div>
     </div>
   </div>
-  <div id="right"></div>
 </div>
 <footer>
   <div id="maps">
@@ -215,7 +175,7 @@
     </a>
   </div>
   <div id="contact">
-    <p>Social Media</p>
+    <h2>Social Media</h2>
     <a href=""><img src="images/icon/fb.svg" alt="" class="contact"></a>
     <a href=""><img src="images/icon/youtube.png" alt="" class="contact"></a>
     <a href=""><img src="images/icon/twitter.png" alt="" class="contact"></a>
@@ -227,7 +187,6 @@
     <p>Address: Số 9 đường Hạ Long, phường Bãi Cháy, thành phố Hạ Long, tỉnh Quảng Ninh</p>
     <p>Hotline: 0203 3616 | 0888 8555<br>Email: halongcomplex@sunworld.vn </p>
   </div>
-
   <div id="copyright">
     <p>&copy; Copyright by Disney</p>
   </div>
