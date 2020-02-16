@@ -1,22 +1,24 @@
-.background{
-  width: auto;
-  height: 800px;
-  clear: both;
+#wrap-bg{
+  width: 1000px;
+  height:600px;
+  margin: auto;
   text-align: center;
+  margin-top: -18px;
 
 }
+
 .background-text{
-  width: 1200px;
+  width: 600px;
   height: 50px;
   position: absolute;
   color: #fff;
-  top: 500px;
-  font-size: 44px;
-  text-align: center;
-  margin-left: 18%;
+  top: 400px;
+  font-size: 24px;
+  margin-left: 200px;
+
 }
 .bg-learn{
-  font-size: 22px;
+  font-size: 16px;
 }
 .background-text a{
   font-weight: 600;
@@ -26,44 +28,33 @@
 }
 .bg-next{
   position: absolute;
-  font-size: 40px;
-  left: 56%;
-  bottom: -155px;
+  font-size: 30px;
+  left: 58%;
+  bottom: -72px;
 }
 }
 .background-text a:hover{
   color: gray;
 }
 #video_background {
-  position: absolute;
-top: 70px;
-  bottom: 0px;
 
-  right: 0px;
-
-  min-width: 100%;
-
-  min-height: 100%;
-
-  width: auto;
-
-  height: auto;
-
+width: 1000px;
+height: 600px;
+display: block;
   z-index: -1000;
-
-
 }
 .countdown {
     border-collapse: separate;
     border-spacing: 5px;
     display: table;
-    margin: 0 auto;
     text-align: center;
+    margin-top: 100px;
+    margin-left: 10px;
 }
 .countdown a{
   text-decoration: none;
   color: white;
-  font-size: 22px;
+  font-size: 18px;
 }
 .countdown a:hover{
   text-decoration: underline;

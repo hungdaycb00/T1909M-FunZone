@@ -1,0 +1,49 @@
+.food{
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+}
+.select1{
+  width: 600px;
+  float: left;
+margin-top: 10px;
+}
+.select2{
+  float: left;
+  width: 200px;
+}
+.select1 button{
+  margin: 0px 20px 40px 20px;
+}
+.restaurant {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #074265;;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.restaurant:hover {background-color: #3e8e41}
+
+.restaurant:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.select2 img{
+  width: 35px;
+}
+.select2 input{
+
+width: 20px;
+height: 20px;
+cursor: pointer;
+
+}

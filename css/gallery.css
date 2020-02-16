@@ -4,12 +4,21 @@
   clear: both;
   margin: auto;
   padding-top: 12px;
-  margin-bottom: 40px;
+
 }
 .gallery .picview{
   width: 230px;
   height: 200px;
   float: left;
   margin: 10px;
-
+}
+.load-more{
+  font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+.load-more a{
+  text-decoration: none;
+  color: #8C8C8C;
+  font-weight: bold;
 }
