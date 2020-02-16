@@ -19,11 +19,11 @@
       <div class="login"><a href="#" class="login">Sign In or Create Account</a></div>
     </div>
     <div id="logo">
-      <a href=""><img src="images/icon/logo.png" alt="" class="logo"></a>
+      <a href="home.html"><img src="images/icon/logo.png" alt="" class="logo"></a>
     </div>
     <div id="bar">
       <ul class="links">
-        
+
         <div class="dropdown">
           <li class="show"><a href="Show and Event.html" target="_blank">Shows & Events</a>
           <div class="dropdown-content">
@@ -51,7 +51,7 @@
         </li>
         </div>
         <div class="dropdown">
-          <li class="ticket"><a href="">Tickets & Info</a>
+          <li class="ticket"><a href="Ticket.html">Tickets & Info</a>
           <div class="dropdown-content">
             <a href="#">Tickets & Prices</a>
             <a href="#">special Offers</a>
@@ -119,66 +119,28 @@
 
     <div class="event">
 
-         <h4>What would you like to eat or drink?</h4>
+         <h4>What would you like to eat or drink? </h4>
          <hr/ class="boder1">
          <div class="option">
-
-             <div class="from">
-               <label for="from" class="lable_from">From    </label>
-               <input  class="inputfromto" type="date"  name="from"  value="2020-01-01" size="" min="2020-01-01" max="2020-12-31" />
-               <img src="images/icon/calendar.png" alt="" >
-             </div>
-             <div class="to">
-               <label for="to" class="lable_from">To     </label>
-               <input  class="inputfromto" type="date"  name="to" value="2020-01-01" size=""  min="2020-01-01" max="2020-12-31" />
-               <img src="images/icon/calendar.png" alt="" >
-             </div>
-
-            <div class="category">
-      <label class="lable_from" for="category">What</label>
-
-        <select  name="">
-          <option value="">- Any -</option>
-          <option value="">Evening Cinema</option>
-          <option value="">Charity Events</option>
-          <option value="">Senior visitors (aged 60+)</option>
-          <option value="">Groups</option>
-          <option value="">For Kids</option>
-          <option value="">Culinary Highlights</option>
-          <option value="">Parc Shows &amp; 4D Cinema</option>
-          <option value="">For Pupils</option>
-          <option value="">Shows, Concerts &amp; Events</option>
-          <option value="">Other</option>
-          <option value="">Sport Events</option>
-          <option value="">Theme Parties</option>
-
-        </select>
-            <img src="images/icon/hat-and-magic-wand.png" alt="">
-        </div>
-              </div>
-             <div class="Price_Tickets">
-               <label for="Price_Tickets" class="lable_from" >Price & Tickets</label>
-    <select name="">
-      <option value="">Separate ticket required.</option>
-      <option value="">Tickets included in park entry fee.</option>
-      <option value="">Event is free of charge.</option>
-    </select>
-    <img src="images/icon/voucher.png" alt="">
-             </div>
-
+           <ul>
+             <li> <input type="button" name="location" value="All Location" class="option1 location" data-type="type1"></li>
+             <li> <input type="button" name="restaurant" value="All Restaurant" class="option1 restaurant" data-type="type2"><li>
+             <li><input type="checkbox" name="" value="dairy free" class="" data-type="milk">Dairy Free</li>
+             <li><input type="checkbox" name="" value="vegetarian" data-type="vegetarian">vegetarian</li>
+           </ul>
 
          <hr/ class="boder2">
       <p class="title1">Current shows & events</p>
-      <div>
-        <div class="entry">
-          <a href=""><figure><img src="images/eventandshow/anh1.jpg" alt="">
+      <div class="show-event">
+        <div class="entry type1">
+          <a href=""><figure><img src="images/eventandshow/anh1.jpg" alt="" class="milk type1 type2">
             <div class=entry_link>
               <h5>Valentine's Day
               <br>
               <span>18.02.20 Saturday 17:00 pm</span></h5>
             </div></figure></a>
         </div>
-        <div class="entry">
+        <div class="entry type2 type1">
           <a href=""><figure><img src="images/eventandshow/anh2.jpg" alt="">
             <div class=entry_link>
               <h5>Gin Tonic & Burger
@@ -456,34 +418,43 @@
   </div>
 </div>
 <footer>
+  <div class="footer">
+    <div id="maps">
+      <img src="images/staticmap.png" alt="" class="staticmaps">
+      <a href="https://www.google.com/maps/search/?api=1&query=20.9553865,107.04951759999994" target="_blank">
+        <button type="button" name="button" class="buttonmaps">Location info</button>
+        <span><img src="images/icon/map.png" alt="" class="iconmaps"></span>
+      </a>
+    </div>
+    <div id="hotline">
+      <h2>CONTACT</h2>
+      <h3>Disney World</h3>
+      <p>Disney Resort Hotel
+Reservations <br>
+Hotline:(407) 939-1936 | 0800 16 90 730 (UK)</p>
+      <p>Website Support <br>
+Hotline: (407) 939-4357 | 0800 16 90 749 (UK) | 1800 812 677 (IE)</p>
+    </div>
+    <div id="contact">
+      <h2>Social Media</h2>
+      <a href=""><img src="images/icon/fb.svg" alt="" class="contact"></a>
+      <a href=""><img src="images/icon/youtube.png" alt="" class="contact"></a>
+      <a href=""><img src="images/icon/twitter.png" alt="" class="contact"></a>
+      <a href=""><img src="images/icon/insta.png" alt="" class="contact"></a>
+    </div>
 
-  <div id="maps">
-    <img src="images/staticmap.png" alt="" class="staticmaps">
-    <a href="https://www.google.com/maps/search/?api=1&query=20.9553865,107.04951759999994" target="_blank">
-      <button type="button" name="button" class="buttonmaps">Location info</button>
-      <span><img src="images/icon/map.png" alt="" class="iconmaps"></span>
-    </a>
+    <div id="copyright">
+      <p>&copy; Disney, All Rights Reserved</p>
+    </div>
   </div>
-  <div id="contact">
-    <h2>Social Media</h2>
-    <a href=""><img src="images/icon/fb.svg" alt="" class="contact"></a>
-    <a href=""><img src="images/icon/youtube.png" alt="" class="contact"></a>
-    <a href=""><img src="images/icon/twitter.png" alt="" class="contact"></a>
-    <a href=""><img src="images/icon/insta.png" alt="" class="contact"></a>
-  </div>
-  <div id="hotline">
-    <h2>Contact</h2>
-    <h3>Sun World Halong Complex</h3>
-    <p>Address: Số 9 đường Hạ Long, phường Bãi Cháy, thành phố Hạ Long, tỉnh Quảng Ninh</p>
-    <p>Hotline: 0203 3616 838 | 0888 855 621<br>Email: halongcomplex@sunworld.vn </p>
-  </div>
-  <div id="copyright">
-    <p>&copy; Copyright by Disney</p>
-  </div>
+
 </footer>
 
 <script type="text/javascript" src="time.js"></script>
 <script type="text/javascript" src="js/SliderShow.js"></script>
 <script type="text/javascript" src="js/SliderShow1.js"></script>
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/fitler.js"></script>
 </body>
 </html>
