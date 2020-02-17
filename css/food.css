@@ -27,7 +27,7 @@ margin-top: 10px;
   background-color: #074265;;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 5px #999;
 }
 
 .restaurant:hover {background-color: #3e8e41}
