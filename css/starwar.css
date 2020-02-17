@@ -1,0 +1,62 @@
+#content1{
+  max-width: 1170px;
+  margin: auto;
+  clear: both;
+display: block;
+margin-top: 10px;
+}
+.starwar{
+  max-width: 700px;
+  float: left;
+  clear: both;
+  height: inherit;
+}
+.starwar_text{
+  background-color: #ECF7FD;
+  max-width: 400px;
+  float: left;
+  padding: 5px;
+  padding-left: 20px;
+  height: inherit;
+  height: 393.75px;
+
+}
+.starwar_pic{
+  max-width: 700px;
+}
+.starwar_content{
+width: 700px;
+float: left;
+}
+.starwar_map{
+  width: 400px;
+  float: left;
+  margin-left: 20px;
+
+}
+.starwar_map img{
+  width: 400px;
+    border-radius: 20px;
+}
+.wrap_starwar{
+  max-width: 1170px;
+  margin: auto;
+  clear: both;
+}
+
+.starwar_text1{
+  width: 550px;
+  float: left;
+  margin-right: 20px;
+}
+.starwar_text1 img{
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+.starwar_text1 a{
+  text-decoration: none;
+}
+.starwar_text1 a:hover{
+  color: #1DA1F2;
+}
