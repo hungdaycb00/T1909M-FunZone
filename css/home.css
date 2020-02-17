@@ -41,6 +41,13 @@ font-size: 13px;
     height: inherit;
     float: right;
     margin-left: 10px;
+    text-align: right;
+  }
+  .search img{
+    width: 20px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 2px;
   }
   ._search{
     height: 25px;
