@@ -55,11 +55,12 @@ font-size: 13px;
     background-color: #faf7eb;
   }
   #logo{
-    height: 100px;
+    clear: both;
   text-align: center;
   }
   .logo{
     height: 100px;
+    width: 150px;
 }
   #bar{
     min-width: 100%;
