@@ -1,0 +1,66 @@
+#hotel img{
+  width: 100%;
+  height: 170px;
+  margin-left: -14px;
+}
+#hotel{
+  background-color: #F6F5F5;
+  margin-bottom: 20px;
+  width: 1000px;
+  margin: 20px auto;
+}
+.khachsan{
+  margin-bottom: 50px;
+}
+#hotel .col-sm-6{
+  margin-top: 15px;
+}
+#hotel b{
+  font-size: 20px;
+  color: #3C5288;
+
+}
+#hotel h4{
+  color: #3C5288;
+}
+#hotel :hover{
+  background-color: #D3D2D2;
+}
+#hotel button:hover{
+  background-color: #5384F2;
+}
+.container h3{
+  color: #212529;
+
+}
+.ng{
+  border: 1px solid #C3C3C3;
+  margin-bottom: 40px;
+  width: 1000px !important;
+  margin: 0 auto !important;
+
+}
+.ng img{
+  height: 200px;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: white;
+}
+.owl-carousel{
+  width: 980px !important;
+  margin-left: 55px;
+  margin: 0 auto !important;
+}
+hr{
+  width: 1000px;
+}
+.container h4{
+margin-left: 55px;
+}
+.anhnay{
+  width: 1000px;
+height: auto;
+  clear: both;
+  margin: auto;
+}
