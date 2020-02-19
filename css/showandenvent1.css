@@ -1,0 +1,69 @@
+.Whenwhere{
+  width: 630px;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+.ticketandprice{
+  width: 340px;
+  height: auto;
+
+  float: right;
+}
+.when{
+  width: 300px;
+  height: 200px;
+
+float: left;
+margin-right: 20px;
+}
+.where{
+  width: 300px;
+  height: 200px;
+
+float: left;
+  }
+  .price{
+    width: 340px;
+    height: 150px;
+    border: 1px solid#7a7a7a;
+    margin-bottom: 70px;
+    padding-left: 20px;
+  }
+  .thepark{
+    width: 340px;
+    height: 250px;
+    border: 1px solid gray;
+
+  }
+  .thepark img{
+    width: 340px;
+    height: 250px;
+    float: left;
+
+  }
+h4{
+
+float: left;
+color: #7e8389;
+
+}
+h3{
+  color: #a2a2a2;
+}
+h5{
+  font-size: 20px;
+  margin-top: 0px;
+  color: #63f9f9;
+}
+img{
+  width:40px;
+  margin-bottom: 10px;
+}
+.gioihan{
+  color :#d10c0c;
+}
+.ticketandprice button{
+  background-color: #6cbbd0;;
+  color: white;
+}
